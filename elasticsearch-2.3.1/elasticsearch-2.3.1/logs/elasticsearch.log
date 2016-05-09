@@ -1,0 +1,19 @@
+[2016-04-22 14:23:24,197][INFO ][node                     ] [Balor] version[2.3.1], pid[92392], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-22 14:23:24,254][INFO ][node                     ] [Balor] initializing ...
+[2016-04-22 14:23:27,512][INFO ][plugins                  ] [Balor] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-22 14:23:27,760][INFO ][env                      ] [Balor] using [1] data paths, mounts [[(D:)]], net usable_space [445.8gb], net total_space [831.5gb], spins? [unknown], types [NTFS]
+[2016-04-22 14:23:27,761][INFO ][env                      ] [Balor] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-22 14:23:39,694][INFO ][node                     ] [Balor] initialized
+[2016-04-22 14:23:39,695][INFO ][node                     ] [Balor] starting ...
+[2016-04-22 14:23:42,321][INFO ][transport                ] [Balor] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-22 14:23:42,535][INFO ][discovery                ] [Balor] elasticsearch/V85KavubR7yzwSDPh1KSmg
+[2016-04-22 14:23:46,595][INFO ][cluster.service          ] [Balor] new_master {Balor}{V85KavubR7yzwSDPh1KSmg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-22 14:23:47,029][INFO ][http                     ] [Balor] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-22 14:23:47,030][INFO ][node                     ] [Balor] started
+[2016-04-22 14:23:47,468][INFO ][gateway                  ] [Balor] recovered [1] indices into cluster_state
+[2016-04-22 14:23:51,597][INFO ][cluster.routing.allocation] [Balor] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-04-22 15:28:32,543][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-22 15:28:32,544][INFO ][node                     ] [Balor] stopping ...
+[2016-04-22 15:28:33,723][INFO ][node                     ] [Balor] stopped
+[2016-04-22 15:28:33,724][INFO ][node                     ] [Balor] closing ...
+[2016-04-22 15:28:34,148][INFO ][node                     ] [Balor] closed

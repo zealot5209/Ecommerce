@@ -1,0 +1,38 @@
+[2016-04-12 12:15:36,008][INFO ][node                     ] [Belasco] version[2.3.1], pid[1592], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-12 12:15:36,013][INFO ][node                     ] [Belasco] initializing ...
+[2016-04-12 12:15:46,516][INFO ][plugins                  ] [Belasco] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-12 12:15:48,675][INFO ][env                      ] [Belasco] using [1] data paths, mounts [[(D:)]], net usable_space [447.3gb], net total_space [831.5gb], spins? [unknown], types [NTFS]
+[2016-04-12 12:15:48,675][INFO ][env                      ] [Belasco] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-12 12:16:24,735][INFO ][node                     ] [Belasco] initialized
+[2016-04-12 12:16:24,736][INFO ][node                     ] [Belasco] starting ...
+[2016-04-12 12:16:26,531][INFO ][transport                ] [Belasco] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-12 12:16:27,052][INFO ][discovery                ] [Belasco] elasticsearch/ohIV3I8xSYW2sB8Da4jajw
+[2016-04-12 12:16:31,252][INFO ][cluster.service          ] [Belasco] new_master {Belasco}{ohIV3I8xSYW2sB8Da4jajw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-12 12:16:31,708][INFO ][http                     ] [Belasco] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-12 12:16:31,708][INFO ][node                     ] [Belasco] started
+[2016-04-12 12:16:32,054][INFO ][gateway                  ] [Belasco] recovered [1] indices into cluster_state
+[2016-04-12 12:16:37,610][INFO ][cluster.routing.allocation] [Belasco] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
+[2016-04-12 12:28:21,702][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-12 12:28:21,703][INFO ][node                     ] [Belasco] stopping ...
+[2016-04-12 12:28:23,985][INFO ][node                     ] [Belasco] stopped
+[2016-04-12 12:28:23,986][INFO ][node                     ] [Belasco] closing ...
+[2016-04-12 12:28:23,995][INFO ][node                     ] [Belasco] closed
+[2016-04-12 12:37:19,938][INFO ][node                     ] [Ultron] version[2.3.1], pid[524], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-12 12:37:19,939][INFO ][node                     ] [Ultron] initializing ...
+[2016-04-12 12:37:20,579][INFO ][plugins                  ] [Ultron] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-12 12:37:20,606][INFO ][env                      ] [Ultron] using [1] data paths, mounts [[(D:)]], net usable_space [447gb], net total_space [831.5gb], spins? [unknown], types [NTFS]
+[2016-04-12 12:37:20,606][INFO ][env                      ] [Ultron] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-12 12:37:23,140][INFO ][node                     ] [Ultron] initialized
+[2016-04-12 12:37:23,140][INFO ][node                     ] [Ultron] starting ...
+[2016-04-12 12:37:23,709][INFO ][transport                ] [Ultron] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-12 12:37:23,714][INFO ][discovery                ] [Ultron] elasticsearch/1Rn48EY8TLWRefesBjcefA
+[2016-04-12 12:37:27,772][INFO ][cluster.service          ] [Ultron] new_master {Ultron}{1Rn48EY8TLWRefesBjcefA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-12 12:37:28,139][INFO ][gateway                  ] [Ultron] recovered [1] indices into cluster_state
+[2016-04-12 12:37:28,299][INFO ][http                     ] [Ultron] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-12 12:37:28,300][INFO ][node                     ] [Ultron] started
+[2016-04-12 12:37:30,940][INFO ][cluster.routing.allocation] [Ultron] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][2]] ...]).
+[2016-04-12 12:39:47,382][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-12 12:39:47,383][INFO ][node                     ] [Ultron] stopping ...
+[2016-04-12 12:39:51,802][INFO ][node                     ] [Ultron] stopped
+[2016-04-12 12:39:51,803][INFO ][node                     ] [Ultron] closing ...
+[2016-04-12 12:39:51,812][INFO ][node                     ] [Ultron] closed

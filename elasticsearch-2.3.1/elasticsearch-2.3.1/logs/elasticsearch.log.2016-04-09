@@ -1,0 +1,19 @@
+[2016-04-09 21:14:26,660][INFO ][bootstrap                ] running graceful exit on windows
+[2016-04-09 21:14:26,881][INFO ][node                     ] [Torrent] stopping ...
+[2016-04-09 21:14:27,777][INFO ][node                     ] [Torrent] stopped
+[2016-04-09 21:14:27,778][INFO ][node                     ] [Torrent] closing ...
+[2016-04-09 21:14:27,965][INFO ][node                     ] [Torrent] closed
+[2016-04-09 23:36:28,575][INFO ][node                     ] [Marrina] version[2.3.1], pid[8044], build[bd98092/2016-04-04T12:25:05Z]
+[2016-04-09 23:36:28,576][INFO ][node                     ] [Marrina] initializing ...
+[2016-04-09 23:36:29,459][INFO ][plugins                  ] [Marrina] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-09 23:36:29,487][INFO ][env                      ] [Marrina] using [1] data paths, mounts [[(D:)]], net usable_space [450.1gb], net total_space [831.5gb], spins? [unknown], types [NTFS]
+[2016-04-09 23:36:29,487][INFO ][env                      ] [Marrina] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-04-09 23:36:35,423][INFO ][node                     ] [Marrina] initialized
+[2016-04-09 23:36:35,423][INFO ][node                     ] [Marrina] starting ...
+[2016-04-09 23:36:37,306][INFO ][transport                ] [Marrina] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-04-09 23:36:37,354][INFO ][discovery                ] [Marrina] elasticsearch/6iKyt5NTStC2HE-MOJjeJg
+[2016-04-09 23:36:41,543][INFO ][cluster.service          ] [Marrina] new_master {Marrina}{6iKyt5NTStC2HE-MOJjeJg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-09 23:36:41,843][INFO ][gateway                  ] [Marrina] recovered [1] indices into cluster_state
+[2016-04-09 23:36:44,006][INFO ][http                     ] [Marrina] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-04-09 23:36:44,007][INFO ][node                     ] [Marrina] started
+[2016-04-09 23:36:45,558][INFO ][cluster.routing.allocation] [Marrina] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][1]] ...]).
